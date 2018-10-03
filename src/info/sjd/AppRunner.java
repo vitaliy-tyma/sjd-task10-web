@@ -12,22 +12,14 @@ public class AppRunner {
 
 	public static void main(String[] args) {
 
-
-
 		// USE PROXY (switch of before commit)
 		//PROXY = Boolean.TRUE;
-		
-		
-		
-		
+
 		Product product = DataSaver.getData(URL, PROXY);
-		
-		
+
 		if (product != null) {
 			DataSaver.saveToFile(product.toXML(), FILE_NAME);
 		}
-
-
 
 	}
 

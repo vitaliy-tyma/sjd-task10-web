@@ -2,12 +2,14 @@ package info.sjd.service;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import info.sjd.model.Product;
+
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import info.sjd.model.Product;
 
 public class DataSaver {
 
